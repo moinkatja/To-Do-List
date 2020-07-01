@@ -6,14 +6,14 @@ class ToDoList extends Component {
 
     render() {
         return this.props.todoitems.map((todo) => (
-            <ul>
+    
                 <ToDoItem
                     key={todo.id}
                     todo={todo}
                     toggleClass={this.props.toggleClass}
                     removeToDo={this.props.removeToDo}
                 />
-            </ul>
+     
         ))
     }
 };

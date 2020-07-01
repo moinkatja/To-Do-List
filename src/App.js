@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
 import '../node_modules/font-awesome/css/font-awesome.min.css';
 import AddToDo from "./components/AddToDo";
